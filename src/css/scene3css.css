@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: #ffffff;
+}
+
+.scroll-bar:horizontal .track {
+    -fx-border-color: white;
+    -fx-background-radius: 0.0em;
+    -fx-border: none;
+    -fx-border-radius: 0%;  /*figure out a way to change the color of this bc this is the root of the issue*/
+    -fx-border-style: none;
+    -fx-background-color: white;
+    
+    
+}
+.scroll-bar:horizontal .increment-button,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color: white;
+    -fx-background-radius: 0.0em;
+    -fx-padding: 0.0 0.0 10.0 0.0;
+
+}
+.scroll-bar:horizontal .increment-arrow,
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-shape: " ";    
+    -fx-padding: 0.2em 0.0;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-insets: 1.0, 0.0, 0.0;
+    -fx-background-radius: 2.0em;
+    -fx-background-color: #000000;
+}
+.scroll-bar:horizontal .thumb:pressed {
+    -fx-background-color: #b20d22;
+    -fx-background-insets: 1.5, 0.0, 0.0;
+    -fx-background-radius: 2.0em;
+}
+
+#mainText {
+    -fx-font-size: 40px;
+    -fx-font-family: "Harrington";
+    -fx-text-fill: #FFFFFF;
+}

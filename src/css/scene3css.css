@@ -6,7 +6,7 @@
     -fx-border-color: white;
     -fx-background-radius: 0.0em;
     -fx-border: none;
-    -fx-border-radius: 0%;  /*figure out a way to change the color of this bc this is the root of the issue*/
+    -fx-border-radius: 0%;  
     -fx-border-style: none;
     -fx-background-color: white;
     
